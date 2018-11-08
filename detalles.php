@@ -29,6 +29,7 @@
 					    </div>
 					    <div class="card-content">
 					      <h2 class="card-panel lime lighten-1"><span>Precio: $<?php echo $f['precio'];?></span><br></h2>
+					      <h2><?php echo $f['descripcion'];?></h2>
 					      <p>Descripción: <?php echo $f['descripcion'];?></p>
 					    </div>
 					    <div class="card-action">
@@ -39,9 +40,9 @@
 					<?php 
 				}
 				?>	
-				<center><a href="./">Volver al catálogo</a></center>   
+				<center><a href="./bienvenido.php">Volver al catálogo</a></center>   
 <div class="row card-panel grey lighten-3">
-  <p class="card-panel lime lighten-1"><a href="logout.php">Cerrar Sesion</a><a class="right" href="contacto.html">Contactanos</a></p>
+  <p class="card-panel lime lighten-1"><a href="logout.php">Cerrar Sesión</a><a class="right" href="contacto.html">Contactanos</a></p>
 </div>
 </body>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>

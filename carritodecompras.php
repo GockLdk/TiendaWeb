@@ -79,7 +79,7 @@
 					?>
 					<div class="producto">
 					<center>
-						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
+						<img src="./img/<?php echo $datos[$i]['Imagen'];?>" class="responsive-img"><br>
 						<span ><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span>Precio: <?php echo $datos[$i]['Precio'];?></span><br>
 						<span>Cantidad: 
@@ -102,7 +102,7 @@
 			?>	
 			<center><a href="./bienvenido.php">Ver catálogo</a></center> 
 		</section>
-				<center><a href="./">Ver catálogo</a></center>  
+				 
 <div class="row card-panel grey lighten-3">
   <p class="card-panel lime lighten-1"><a href="logout.php">Cerrar Sesion</a><a class="right" href="contacto.html">Contactanos</a></p>
 </div>
