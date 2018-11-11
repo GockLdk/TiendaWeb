@@ -45,19 +45,19 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Inicia sesión</title>
+	<title>Iniciar sesión</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/materialize.min.css">
 </head>
 <header>
-  <nav class=" blue darken-3" >
+  <nav class=" cyan lighten-1" >
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">Login</a>
+      <img src="img/LogoSample_ByTailorBrands.jpg" class="brand-logo center" id="logo2" alt="logo">
     </div>
   </nav>
 </header>
-<body>
-	<div class="row col s12 m12 l12 xl12">
+<body >
+	<div class="row col s12 m12 l12 xl12" id="formulario">
 		<div class="col s0 m0 l4 xl4"></div>
 		<div class="col s12 m12 l4 xl4 ">
 			<form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST">
@@ -84,8 +84,9 @@
 	<div style="font-size: 16px;color: #cc0000;">
 		<?php echo isset($error)?utf8_decode($error):''; ?>
 	</div>
+		<h3>Inicia sesión o regístrate para poder comprar</h3>
 		</div>
-		<div class="col s0 m0 l4 xl4"></div>
+		
 	</div>
 	
 </body>
